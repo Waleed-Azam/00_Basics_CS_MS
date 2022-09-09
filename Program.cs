@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,7 @@ namespace Methods_CS_MS
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("Here in this code, we going to have a brief introduction to C# Methods");
             Console.WriteLine("_______________________________________________");
             Console.WriteLine("Methods, having a return type, and we need to do some functionality here");
@@ -30,6 +32,7 @@ namespace Methods_CS_MS
             Console.WriteLine("n format: {0:n}", 99999);
             Console.WriteLine("e format: {0:e}", 99999);
             Console.WriteLine("X format: {0:X}", 99999);
+            */
 
             // below are going to be all examples where my goal is to believe in 
             // In all the datatypes. Some of the datatype are not helpful at all
@@ -46,6 +49,8 @@ namespace Methods_CS_MS
             bool flag = true;
             */
 
+            /*
+
             // Below are some examples for the Ternary Operator
             //int result;
             Console.WriteLine("Enter your result");
@@ -53,6 +58,43 @@ namespace Methods_CS_MS
             Console.WriteLine("Here what you entered:", result);
             //string marks;
             marks = (result > 50) ? "Pass" : "Fail";
+            */
+            /*
+            int value = 10 / 2;
+            if(value == 5)
+            {
+                Console.WriteLine(true);   
+                Console.ReadLine();
+            }
+            // Here is the code the if-else statement and some more information
+            // Some of the practical information
+           
+            Console.WriteLine("Enter the number to check if it is more or less then 50");
+            int x = Console.ReadLine();
+
+            if (x > 50)
+            {
+                Console.Write("pass");
+            }
+            else
+            {
+                Console.Write("Fail");
+            }
+            */
+            // Below is the Switch Statement:
+            char choice;
+            switch(choice)
+            {
+                case 1:
+                    Console.Write("Excellent");
+                    break;
+                case 2:
+                    Console.Write("VeryGood");
+                    break;
+                    default: Console.Write("Invalid Input");
+                    break ;
+            }
+
         }
     }
 }
